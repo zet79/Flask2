@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Equipos con mas Titulos Europes</title>
+</head>
+<body>
+  <h1>Campeones Europeos</h1>
+  <h2>Equipos con mas Titulos Europeos:</h2>
+  <ul>
+    {% for team in teams %}
+      <li>
+          {{team}}
+      </li>
+    {%endfor%}
+  </ul>
+</body>
+</html>
